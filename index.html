@@ -10,7 +10,31 @@
 
 <body>
 
-  <header class="flex justify-center px-2 py-2 border-solid border-gray-200 border-b-2">
+  <header class="hidden md:flex justify-between px-6 py-4">
+    <div class="flex">
+      <img class="inline-block mx-5 w-7" src="images/airbnb_logo.svg" alt="">
+      <div class="relative">
+        <input class="px-4 py-2 rounded-3xl font-medium placeholder-black border-solid border-gray-300 border-2 border-opacity-30 focus:outline-none" placeholder="Commencez votre recherche">
+        <div class="absolute inset-y-0 right-0 flex items-center pr-2">
+          <svg class="w-8 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M9 9a2 2 0 114 0 2 2 0 01-4 0z" />
+            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-13a4 4 0 00-3.446 6.032l-2.261 2.26a1 1 0 101.414 1.415l2.261-2.261A4 4 0 1011 5z" clip-rule="evenodd" />
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <span>Devenez hôte</span>
+      logo
+      <button>
+
+      </button>
+    </div>
+  </header>
+
+
+  <header class="md:hidden flex justify-center px-2 py-2 border-solid border-gray-200 border-b-2">
     <div class="relative">
       <div class="absolute inset-y-0 left-0 flex items-center pl-4">
         <svg class="w-4 fill-current text-gray-800" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -32,7 +56,7 @@
   <section class="py-6 ml-6 mr-14 border-solid border-gray-200 border-b-2">
 
     <span class="text-sm text-gray-700">+ de 300 séjours</span>
-    <h1 class="pt-1 text-2xl font-bold text-gray-800">Séjours dans le monde entier</h1>
+    <h1 class="pt-1 text-3xl font-bold text-gray-800">Séjours dans le monde entier</h1>
     <div class="pt-7 -mx-1">
       <button class="px-3 py-1 text-sm text-gray-800 rounded-3xl border-solid border-gray-800 border-2 text-opacity-85">Filtres &bull; 2</button>
     </div>
@@ -44,14 +68,14 @@
 
   </div>
 
-  <main class="pt-8 ml-6 mr-14 grid gap-9 grid-cols-1">
+  <main class="pt-8 ml-6 mr-14 pb-6 grid gap-y-9 gap-x-5 grid-cols-1 md:grid-cols-2">
     <div>
       <div class="relative">
         <span class="absolute top-2 left-2 px-2 py-1 bg-white font-black text-xs text-gray-900 text-opacity-80 rounded shadow-lg">SUPERHOST</span>
         <svg class="absolute top-2 right-2 w-6 fill-current text-gray-700"xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
         </svg>
-        <img  class="rounded-xl shadow-lg" src="https://a0.muscache.com/im/pictures/ea38da34-7082-45a6-895f-dd87019064ee.jpg?im_w=320" alt="">
+        <img  class="w-full h-64 rounded-xl shadow-lg" src="https://a0.muscache.com/im/pictures/ea38da34-7082-45a6-895f-dd87019064ee.jpg?im_w=320" alt="">
       </div>
       <div>
         <div class="flex pt-2">
@@ -71,7 +95,7 @@
         <svg class="absolute top-2 right-2 w-6 fill-current text-gray-700"xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
         </svg>
-        <img  class="rounded-xl shadow-lg" src="https://a0.muscache.com/im/pictures/874aac83-43c6-49e2-bacb-e6ae4146d5b1.jpg?im_w=320" alt="">
+        <img  class="w-full h-64 rounded-xl shadow-lg" src="https://a0.muscache.com/im/pictures/874aac83-43c6-49e2-bacb-e6ae4146d5b1.jpg?im_w=320" alt="">
       </div>
       <div>
         <div class="flex pt-2">
@@ -91,7 +115,7 @@
         <svg class="absolute top-2 right-2 w-6 fill-current text-gray-700"xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
         </svg>
-        <img  class="rounded-xl shadow-lg" src="https://a0.muscache.com/im/pictures/a476b446-889c-4ebb-b559-33dadfa4dbbb.jpg?im_w=320" alt="">
+        <img  class="w-full h-64 rounded-xl shadow-lg" src="https://a0.muscache.com/im/pictures/a476b446-889c-4ebb-b559-33dadfa4dbbb.jpg?im_w=320" alt="">
       </div>
       <div>
         <div class="flex pt-2">
@@ -111,7 +135,7 @@
         <svg class="absolute top-2 right-2 w-6 fill-current text-gray-700"xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
         </svg>
-        <img  class="rounded-xl shadow-lg" src="https://a0.muscache.com/im/pictures/0ac86eca-f008-4192-a7a9-3b38bd83b8f3.jpg?im_w=320" alt="">
+        <img  class="w-full h-64 rounded-xl shadow-lg" src="https://a0.muscache.com/im/pictures/0ac86eca-f008-4192-a7a9-3b38bd83b8f3.jpg?im_w=320" alt="">
       </div>
       <div>
         <div class="flex pt-2">
@@ -131,7 +155,7 @@
         <svg class="absolute top-2 right-2 w-6 fill-current text-gray-700"xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
         </svg>
-        <img  class="rounded-xl shadow-lg" src="https://a0.muscache.com/im/pictures/ea38da34-7082-45a6-895f-dd87019064ee.jpg?im_w=320" alt="">
+        <img  class="w-full h-64 rounded-xl shadow-lg" src="https://a0.muscache.com/im/pictures/ea38da34-7082-45a6-895f-dd87019064ee.jpg?im_w=320" alt="">
       </div>
       <div>
         <div class="flex pt-2">
@@ -151,7 +175,7 @@
         <svg class="absolute top-2 right-2 w-6 fill-current text-gray-700"xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
         </svg>
-        <img  class="rounded-xl shadow-lg" src="https://a0.muscache.com/im/pictures/61a9ae85-5e51-4145-b975-b64e8d06da4c.jpg?im_w=320" alt="">
+        <img  class="w-full h-64 rounded-xl shadow-lg" src="https://a0.muscache.com/im/pictures/61a9ae85-5e51-4145-b975-b64e8d06da4c.jpg?im_w=320" alt="">
       </div>
       <div>
         <div class="flex pt-2">
@@ -171,7 +195,7 @@
         <svg class="absolute top-2 right-2 w-6 fill-current text-gray-700"xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
         </svg>
-        <img  class="rounded-xl shadow-lg" src="https://a0.muscache.com/im/pictures/99a7049a-034d-4633-8e16-369f0e5d3abb.jpg?im_w=320" alt="">
+        <img  class="w-full h-64 rounded-xl shadow-lg" src="https://a0.muscache.com/im/pictures/99a7049a-034d-4633-8e16-369f0e5d3abb.jpg?im_w=320" alt="">
       </div>
       <div>
         <div class="flex pt-2">
@@ -191,7 +215,7 @@
         <svg class="absolute top-2 right-2 w-6 fill-current text-gray-700"xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
         </svg>
-        <img  class="rounded-xl shadow-lg" src="https://a0.muscache.com/im/pictures/miso/Hosting-43516799/original/52cf9346-ab3c-4a7f-9f91-c8e62ae9b24f.jpeg?im_w=320" alt="">
+        <img  class="w-full h-64 rounded-xl shadow-lg" src="https://a0.muscache.com/im/pictures/miso/Hosting-43516799/original/52cf9346-ab3c-4a7f-9f91-c8e62ae9b24f.jpeg?im_w=320" alt="">
       </div>
       <div>
         <div class="flex pt-2">
@@ -207,7 +231,7 @@
   </main>
 
 
-  <footer class="sticky bottom-0 bg-white flex justify-center pb-2 pt-3 px-4 border-solid border-gray-200 border-t">
+  <footer class="md:hidden sticky bottom-0 bg-white flex justify-center pb-2 pt-3 px-4 border-solid border-gray-200 border-t">
     <div class="px-4 flex flex-col justify-center items-center">
       <svg class="w-6 fill-current text-red-500" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
           viewBox="0 0 373.12 373.12" style="enable-background:new 0 0 373.12 373.12;" xml:space="preserve">
